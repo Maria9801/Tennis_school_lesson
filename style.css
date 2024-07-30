@@ -1,0 +1,330 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+main{
+    flex: 1;
+}
+html, body{
+    height: 100%;
+    margin: 0;
+}
+header{
+    background-color: rgb(207, 248, 131);
+    color:rgb(10, 10, 10) ;
+    padding: 10px;
+    text-align: center;
+}
+header h1{
+    font-size: 3em; 
+    margin-bottom: 1px;  
+}
+.head{
+    font-size: 20px;
+}
+nav{
+    text-align: center;
+    background-color:rgba(255, 255, 48, 0.631);
+    height:30px ;
+}
+nav a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin: 0 15px;
+    font-family:'Playfair Display', serif ;
+}
+.main{
+    border-bottom: 2px solid rgb(0, 0, 0);
+    font-weight: bold;
+}
+nav a:hover{
+    color:rgb(87, 154, 87);
+}
+.form{
+    font-weight: bold;
+}
+.place{
+    font-weight: bold;
+}
+main{
+    margin-top: 25px;
+    margin-left: 25px; 
+}
+main img{
+    width: 200px;
+    height: 300px;
+    border: 5px;
+    border-radius: 25px;
+    margin-top: 50px;
+}
+.teachers{
+    text-align: center;
+    width: 700px;
+    padding: 0 0 0 5px;
+    float: left;
+}
+.achives{
+    text-align: center;
+    width: 700px;
+    padding: 0 0 0 5px;
+    float: right;
+}
+.menu{
+    display:flex;
+    justify-content: space-between;
+}
+.flexconteuner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.flexitem{
+    margin:10px;
+}
+.corts{
+    margin-top: 20px;
+    text-align: center;
+}
+.corts2{
+    display: flex;
+    justify-content:space-between ;
+    height: 230px;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+.textprocort{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    padding: 0 10px;
+    border:3px solid rgb(29, 193, 29);
+    border-radius:30px;
+    float: left;
+    margin-right: 20px;
+}
+.textprocort2{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 200px;
+    padding: 0 10px;
+    border:3px solid rgb(29, 193, 29);
+    border-radius: 30px;
+    float: right;
+    margin-left:20px ;
+    margin-right: 35px;
+}
+footer{
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fuctorsection{
+    width: 30%;
+}
+.fuctorsection h3{
+    border-bottom: 1px solid #fff;
+    padding-bottom: 10px;
+}
+.fuctorsection ul{
+    list-style-type: none;
+}
+.fuctorsection ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+.fuctorsection ul li a:hover{
+    color:rgb(255, 216, 145);
+}
+.footer_img img:hover{
+    transform: rotate(360deg);
+    transition: transform 1s;
+}
+.footer_img img:hover{
+    width: 30px;
+    height: 30px;
+}
+.footer_img{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    align-items: center;
+    height: 20px;
+    gap: 10px;
+}
+.copring{
+    text-align: center;
+}
+.form_register{
+    border: 2px solid rgb(0, 186, 0);    
+    width: 450px;
+    height: 420px;
+    margin-top:80px ;
+    margin-bottom: 80px;
+    border-radius: 10px;
+    padding: 50px;
+    color:rgb(0, 0, 0)
+}
+.form_label{
+    font-size: 25px;
+}
+.form_name{
+    font-size: 20px;
+    width: 375px;
+    height: 35px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.form_button{
+    margin-top: 7px;
+    width: 200px;
+    height: 40px;
+    font-size: medium;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+    background-color: rgb(0, 159, 0);
+}
+.form_button:hover{
+    box-shadow: 1px 1px 10px 1px rgb(255, 255, 0);
+}
+.form_name:hover{
+    box-shadow: 1px 1px 10px 1px rgb(93, 154, 0);
+}
+.contact{
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.contact_info{
+    width: 45%;
+    padding: 10px;
+}
+.contact_info h3{
+    font-size: 25px ;
+    color: black;
+    margin-top: 10px;
+}
+.contact_info a{
+    text-decoration: none;
+    color: rgb(0, 173, 0);
+}
+.contact_info a:hover{
+    text-decoration: underline;
+}
+.office_location{
+    margin-top: 20px;
+    border: 3px solid rgba(238, 238, 48, 0.588) ;
+}
+.feetback{
+    margin-left: 100px;    
+    width: 50%;
+}
+.contact_form{
+    padding: 10px;
+    border: 2px solid rgba(238, 238, 48, 0.588);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.498);
+}
+.contact_form label,
+.contact_form input,
+.contact_form textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+.contact_form button{
+    background-color: rgba(0, 194, 0, 0.468);
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+.contact_form button:hover{
+    background-color: bisque;
+}
+.trener1{
+    transition: transform 0.3s;
+}
+.trener1:hover{
+    transform: scale(1.1);
+}
+.trener2{
+    transition: transform 0.3s;
+}
+.trener2:hover{
+    transform: scale(1.1);
+}
+.trener3{
+    transition: transform 0.3s;
+}
+.trener3:hover{
+    transform: scale(1.1);
+}
+.achiv1{
+    transition: transform 0.3s;
+}
+.achiv1:hover{
+    transform: scale(1.1);
+}
+.achiv2{
+    transition: transform 0.3s;
+}
+.achiv2:hover{
+    transform: scale(1.1);
+}
+.achiv3{
+    transition: transform 0.3s;
+}
+.achiv3:hover{
+    transform: scale(1.1);
+}
+
+/* Стили для затемнения фона */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none; /* По умолчанию скрыто */
+    justify-content: center;
+    align-items: center;
+}
+
+/* Стили для модального окна */
+.modal {
+    width: 600px;
+    height: 500px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* Кнопка закрытия */
+.close {
+    position: absolute;
+    top: 11%;
+    right: 23%;
+    cursor: pointer;
+}
+/* Центрирование текста в модальном окне */
+.modal h2,
+.modal p {
+   text-align: center;
+}
